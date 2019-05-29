@@ -11,7 +11,7 @@ Apache Log4j 2 是对 Log4j 的升级。对比其前身Log4j 1.x，它提供了�
 
 通过发送一个 pull 请求，您可以授予 Apache Software Foundation 足够的权限，以使用和发布 Apache 许可下提交的工作。您向 Apache Software Foundation 授予相同的权利（版权许可，专利许可等），就像您已签署了“贡献者许可协议”一样。 对于被认为是非凡的贡献，您将被要求实际签署贡献者许可协议。
 
-## Usage
+## 用法
 
 用户应该参考 Log4j 网站上的 [Maven, Ivy, Gradle, and SBT Artifacts](http://logging.apache.org/log4j/2.x/maven-artifacts.html)，来了解如何使用他们选择的构建工具，将 Log4j 包含到他们的项目中。
 
@@ -57,37 +57,34 @@ public class Example {
 </Configuration>
 ```
 
-## Documentation
+## 文档
 
-The Log4j 2 User's Guide is available [here](https://logging.apache.org/log4j/2.x/manual/index.html) or as a downloadable
-[PDF](https://logging.apache.org/log4j/2.x/log4j-users-guide.pdf).
 Log4j 2 用户指南可从[这里](https://logging.apache.org/log4j/2.x/manual/index.html)获得，也可下载[PDF](https://logging.apache.org/log4j/2.x/log4j-users-guide.pdf)。
 
-## Requirements
+## 必要条件
 
-Log4j 2.4 and greater requires Java 7, versions 2.0-alpha1 to 2.3 required Java 6.
-Some features require optional dependencies; the documentation for these features specifies the dependencies.
+Log4j 2.4 及更高版本需要Java 7，版本 2.0-alpha1 到 2.3 需要Java 6.
+某些功能需要可选的依赖项; 这些功能的文档指定了所需的依赖项。
 
-## License
+## 许可
 
-Apache Log4j 2 is distributed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+Apache Log4j 2 是在 [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)下发布的。
 
-## Download
+## 下载
 
-[How to download Log4j](http://logging.apache.org/log4j/2.x/download.html),
-and [how to use it from Maven, Ivy and Gradle](http://logging.apache.org/log4j/2.x/maven-artifacts.html).
-You can access the latest development snapshot by using the Maven repository `https://repository.apache.org/snapshots`, 
-see [Snapshot builds](https://logging.apache.org/log4j/2.x/maven-artifacts.html#Snapshot_builds).
+[如何下载 Log4j](http://logging.apache.org/log4j/2.x/download.html),
+和 [如何从 Maven, Ivy 和 Gradle 使用 Log4J](http://logging.apache.org/log4j/2.x/maven-artifacts.html).
+您可以使用Maven存储库`https://repository.apache.org/snapshots`访问最新的开发快照, 
+查看 [快照版构建](https://logging.apache.org/log4j/2.x/maven-artifacts.html#Snapshot_builds).
 
-## Issue Tracking
+## 问题追踪
 
-Issues, bugs, and feature requests should be submitted to the 
-[JIRA issue tracking system for this project](https://issues.apache.org/jira/browse/LOG4J2).
+Issues, bugs, 和 feature requests 应该提交给[此项目的问题跟踪系统 JIRA ](https://issues.apache.org/jira/browse/LOG4J2).
 
 Pull request on GitHub are welcome, but please open a ticket in the JIRA issue tracker first, and mention the 
 JIRA issue in the Pull Request.
 
-## Building From Source
+## 使用源码构建
 
 Log4j requires Apache Maven 3.x. To build from source and install to your local Maven repository, execute the following:
 
@@ -95,7 +92,7 @@ Log4j requires Apache Maven 3.x. To build from source and install to your local 
 mvn install
 ```
 
-## Contributing
+## 贡献
 
 We love contributions! Take a look at
 [our contributing page](https://github.com/apache/logging-log4j2/blob/master/CONTRIBUTING.md).
