@@ -1,7 +1,6 @@
 # [Apache Log4j 2](https://logging.apache.org/log4j/2.x/)
 
-Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor, Log4j 1.x,
-and provides many of the improvements available in Logback while fixing some inherent problems in Logback's architecture.
+Apache Log4j 2 是对 Log4j 的升级。对比其前身Log4j 1.x，它提供了重大的改进，并在修复了 Logback 体系结构中的一些固有问题的同时，提供了许多 Logback 中可用的改进。
 
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/builds.apache.org/job/Log4j%202.x.svg)](https://builds.apache.org/job/Log4j%202.x/)
 [![Travis Status](https://travis-ci.org/apache/logging-log4j2.svg?branch=master)](https://travis-ci.org/apache/logging-log4j2)
@@ -10,17 +9,13 @@ and provides many of the improvements available in Logback while fixing some inh
 
 ## Pull Requests on Github
 
-By sending a pull request you grant the Apache Software Foundation sufficient rights to use and release the submitted 
-work under the Apache license. You grant the same rights (copyright license, patent license, etc.) to the 
-Apache Software Foundation as if you have signed a Contributor License Agreement. For contributions that are 
-judged to be non-trivial, you will be asked to actually signing a Contributor License Agreement.
+通过发送一个 pull 请求，您可以授予 Apache Software Foundation 足够的权限，以使用和发布 Apache 许可下提交的工作。您向 Apache Software Foundation 授予相同的权利（版权许可，专利许可等），就像您已签署了“贡献者许可协议”一样。 对于被认为是非凡的贡献，您将被要求实际签署贡献者许可协议。
 
 ## Usage
 
-Users should refer to [Maven, Ivy, Gradle, and SBT Artifacts](http://logging.apache.org/log4j/2.x/maven-artifacts.html)
-on the Log4j web site for instructions on how to include Log4j into their project using their chosen build tool.
+用户应该参考 Log4j 网站上的 [Maven, Ivy, Gradle, and SBT Artifacts](http://logging.apache.org/log4j/2.x/maven-artifacts.html)，来了解如何使用他们选择的构建工具，将 Log4j 包含到他们的项目中。
 
-Basic usage of the `Logger` API:
+`Logger` API 的基本用法:
 
 ```java
 package com.example;
@@ -43,7 +38,7 @@ public class Example {
 }
 ```
 
-And an example `log4j2.xml` configuration file:
+以及，一个`log4j2.xml`配置文件示例:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -66,6 +61,7 @@ And an example `log4j2.xml` configuration file:
 
 The Log4j 2 User's Guide is available [here](https://logging.apache.org/log4j/2.x/manual/index.html) or as a downloadable
 [PDF](https://logging.apache.org/log4j/2.x/log4j-users-guide.pdf).
+Log4j 2 用户指南可从[这里](https://logging.apache.org/log4j/2.x/manual/index.html)获得，也可下载[PDF](https://logging.apache.org/log4j/2.x/log4j-users-guide.pdf)。
 
 ## Requirements
 
